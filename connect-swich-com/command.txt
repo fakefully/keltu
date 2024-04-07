@@ -1,0 +1,27 @@
+en
+conf t
+hostname s1
+interface vlan 1
+ip add 192.168.1.1 255.255.255.0
+no sh
+exit
+exit
+
+
+en
+conf t
+hostname s2
+interface vlan 2
+ip add 192.168.1.3 255.255.255.0
+no sh
+exit
+exit
+
+en
+conf t
+hostname s3
+interface vlan 3
+ip add 192.168.1.2 255.255.255.0
+no sh
+exit
+exit

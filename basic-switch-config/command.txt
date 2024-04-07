@@ -1,0 +1,24 @@
+en
+config t
+hostname SH
+exit
+
+
+en
+config t
+banner motd c
+Write something
+exit
+exit
+
+
+en
+config t
+line con 0
+password India@123
+login
+exit
+enable secret Cisco@123
+exit
+exit
+
