@@ -1,0 +1,14 @@
+en
+config t
+hostname R1
+int g0/0/0
+ip add 192.168.1.1 255.255.255.0
+no sh
+config t
+ip dhcp pool abc
+default-router 192.168.1.1
+network 192.168.1.0 255.255.255.0
+exit
+exit
+wr
+exit
