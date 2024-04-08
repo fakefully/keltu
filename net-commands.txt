@@ -1,0 +1,16 @@
+ipconfig
+ipconfig/all -> primary info with additional info with network adapters
+ipconfig/renew -> renew sys ip
+ipconfig/release > remove current ip
+route print -> disp routing table on windows
+nslookup testfire.net -> troubleshoot network connectivity, access info related to dns and ip
+hostname -> disp hostname of sys
+ping testfire.net -> send exp packet to check connectivity, received or not
+tracert google.com -> trace transmission of data packet and hop count
+netstat -> overview of all net connection of device
+arp -> aceess mapping structure of ip with mac
+systeminfo -> sys hardware and software info
+tasklist -> task running
+taskkill/pid <pid no> -> kill task
+pathping testfire.net -> complete info of network latency and loss from src to dest, sends path details between two hosts
+getmac -> get computer's mac
